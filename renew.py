@@ -60,7 +60,7 @@ def restart_app(app):
 """ ################################# MAIN SCRIPT ############################################# """
 
 
-# search main directory of the certificate we wan't to renew
+# search main directory of the certificate we want to renew
 for root, dirs, files in os.walk(FULLCERTDIR):
     for file in files:
         if file == 'cert.pem':
