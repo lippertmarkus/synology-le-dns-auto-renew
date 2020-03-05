@@ -56,7 +56,7 @@ Short version:
 ```
 ✔✔✔ Found cert for *.example.com under /usr/syno/etc/certificate/_archive/aBcDef ✔✔✔
 
-RENEW CERT
+♦♦♦ RENEW CERT ♦♦♦
 [Tue Mar  3 18:53:06 CET 2020] Renew: '*.example.com'
 # ...
 [Tue Mar  3 18:53:14 CET 2020] Installing cert to:/usr/syno/etc/certificate/_archive/aBcDef/cert.pem
