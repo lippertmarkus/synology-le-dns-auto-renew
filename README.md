@@ -5,7 +5,7 @@ More sophisticated way of the [bash script in the acme.sh wiki](https://github.c
 - Automatically finds the main certificate folder under `/usr/syno/etc/certificate/_archive/`
 - Only replaces certificates with the correct domain name in the certificate subject instead of replacing all certificates of all apps. Using `openssl` already installed on Synology NAS for finding out certificate subject name.
 - Supports environments using multiple certificates as well as Synology Directory Server without causing problems
-- Uses `rsync` to keep permissions like they should be
+- Uses `rsync` already installed on Synology NAS to keep permissions like they should be
 - Automatically restarts nginx for DSM, Reverse Proxy and other system apps as well as normal applications as needed
 
 ## Background
