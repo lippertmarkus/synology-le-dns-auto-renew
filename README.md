@@ -49,7 +49,7 @@ Short version:
     ```
     If you're cautios you can set `DRY = True` at the beginning of the script to do a dry run without applying any changes to any files and without really renewing the cert. The output shows which files would be overwritten.
 
-5. Create a recurring task via DSM to run the script (don't directly set up a cronjob as the DSM security advisor will give you a warning).
+5. Create a recurring task via DSM to run the script as root (don't directly set up a cronjob as the DSM security advisor will give you a warning).
 
 ## Example output
 
