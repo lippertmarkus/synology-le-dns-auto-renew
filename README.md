@@ -34,7 +34,7 @@ Short version:
 2. Issue certificate like normally:
     ```bash
     cd /usr/local/share/acme.sh
-    # set environment variables according to your used DNS API before issuing
+    # set environment variables and used dns according to your used DNS API before issuing, see https://github.com/acmesh-official/acme.sh/wiki/dnsapi
     ./acme.sh --issue -d "*.example.com" --dns dns_doapi --force
     # ...
     # copy cert files for importing via DSM, e.g. to a share
