@@ -1,4 +1,11 @@
 # Automatically renew Let's Encrypt certificate on Synology NAS using DNS-01 challenge
+
+---
+
+**Update: There is a deployment hook now for deploying the issued certificates to your Synology NAS, which provides an even more elegant solution. Have a look at the `acme.sh` [wiki entry](https://github.com/acmesh-official/acme.sh/wiki/deployhooks#20-deploy-the-cert-into-synology-dsm) or at my blog post for details: https://lippertmarkus.com/2020/03/14/synology-le-dns-auto-renew/**
+
+---
+
 Python script for automatically renewing Let's Encrypt certificates on Synology NAS using DNS-01 challenge. Also supports wildcard certificates.
 
 More sophisticated way of the [bash script in the acme.sh wiki](https://github.com/acmesh-official/acme.sh/wiki/Synology-NAS-Guide#configuring-certificate-renewal) (which helped me a lot!) with the following features/improvements:
